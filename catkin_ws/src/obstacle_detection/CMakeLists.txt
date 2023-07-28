@@ -204,7 +204,7 @@ include_directories(
 
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
-set(CMAKE_CXX_STANDARD 11)
+set(CMAKE_CXX_STANDARD 17)
 #add_executable(cloud_preprocess src/cloud_preprocess_node.cpp src/cloud_transformation.cpp src/cloud_ring_selection.cpp)
 #target_link_libraries(cloud_preprocess ${catkin_LIBRARIES})
 #add_executable(feature_search src/feature_search_node.cpp src/feature_points_search.cpp)
